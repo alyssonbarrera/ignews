@@ -13,10 +13,6 @@
     align-items: center;
     justify-content: space-between;
 
-    svg:nth-child(2) {
-        display: none;
-    }
-
     nav:nth-child(1) {
         display: none;
     }
@@ -73,13 +69,17 @@
     button {
         margin-left: auto;
     }
+
+    .FiMenu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 825px) {
     .headerContent {
 
-        svg:nth-child(2) {
-            display: initial;
+        .FiMenu {
+            display: inherit;
         }
 
         nav:last-child {

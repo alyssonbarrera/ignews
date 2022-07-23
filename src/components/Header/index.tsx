@@ -19,7 +19,7 @@ export function Header() {
             <div className={styles.headerContent}>
                 <img src="/images/logo.svg" alt="ig.news" />
 
-                <FiMenu className='menu-icon' size={32} cursor={"pointer"} onClick={() => menuIsOpen ? setMenuIsOpen(false) : setMenuIsOpen(true)} />
+                <FiMenu className={styles.FiMenu} size={32} cursor={"pointer"} onClick={() => menuIsOpen ? setMenuIsOpen(false) : setMenuIsOpen(true)} />
                 
                 {
                    menuIsOpen && (
