@@ -23,6 +23,10 @@ The construction was made based on the design made available through the figma. 
     </div>
 </div>
 
+## Video
+
+https://user-images.githubusercontent.com/86618257/180621348-6bf54f39-4e8a-4a3c-942d-0997df2cbfae.mp4
+
 ## Stack
 
 <img width="30px" src="https://xesque.rocketseat.dev/platform/tech/typescript.svg"/> <img width="30px" src="https://xesque.rocketseat.dev/platform/tech/reactjs.svg"/> <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /> <img width="31px" src="https://xesque.rocketseat.dev/platform/tech/nextjs.svg"/> <img width="30px" src="https://xesque.rocketseat.dev/platform/tech/faunadb.svg"/>
