@@ -11,10 +11,15 @@
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     nav {
         margin-left: 5rem;
         height: 5rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
 
         a {
             display: inline-block;
@@ -28,6 +33,7 @@
 
             & + a {
                 margin-left: 2rem;
+                margin-right: 2rem;
             }
 
             &:hover {
@@ -54,5 +60,32 @@
 
     button {
         margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .headerContent {
+        nav:last-child {
+            display: none;
+        }
+
+        nav {
+            position: absolute;
+            top: 5rem;
+            left: 0;
+
+            flex-direction: column;
+            justify-content: flex-start;
+
+            height: 30vh;
+            width: 100%;
+            
+            margin: 0;
+            background-color: var(--gray-900);
+        }
+
+        button {
+            margin: 2.5rem 0 0;
+        }
     }
 }
