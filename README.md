@@ -2,13 +2,13 @@
 
 ## Português
 
-#### Blog pago desenvolvido durante a Trilha React do Ignite da Rocketseat
+#### Blog de notícias desenvolvido durante a Trilha React do Ignite da Rocketseat
 
 A construção foi feita com base no design disponibilizado através do figma. A aplicação foi desenvolvida em React com Next.js e Sass, ela faz uso da API de pagamentos do Stripe em conjunto com FaunaDB e também usa o PrismicCMS como Headless CMS. Ela também conta com testes unitários em Jest com Testing Library.
 
 ## English
 
-#### Paid blog developed during Rocketseat Ignite's React Trail
+#### News blog developed during Rocketseat Ignite's React Trail
 
 The construction was made based on the design made available through the figma. The application was developed in React with Next.js and Sass, it makes use of the Stripe Payments API in conjunction with FaunaDB and also uses PrismicCMS as Headless CMS. It also features unit tests in Jest with Testing Library.
 
