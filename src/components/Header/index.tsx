@@ -8,10 +8,7 @@ import { useRouter } from 'next/router';
 export function Header() {
 
     const [menuIsOpen, setMenuIsOpen] = useState(false);
-
     const router = useRouter()
-
-    console.log(router.asPath)
 
     useEffect(() => {
         setMenuIsOpen(false)
@@ -22,10 +19,11 @@ export function Header() {
             <div className={styles.headerContent}>
                 <img src="/images/logo.svg" alt="ig.news" />
 
-                <FiMenu size={32} cursor={"pointer"} onClick={() => menuIsOpen ? setMenuIsOpen(false) : setMenuIsOpen(true)} />
+                <FiMenu className='menu-icon' size={32} cursor={"pointer"} onClick={() => menuIsOpen ? setMenuIsOpen(false) : setMenuIsOpen(true)} />
+                
                 {
                    menuIsOpen && (
-                        <nav>
+                        <nav className={styles.navMobile}>
                             <ActiveLink activeClassName={styles.active} href="/">
                                 <a>Home</a>
                             </ActiveLink>
