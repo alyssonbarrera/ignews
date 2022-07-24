@@ -25,7 +25,7 @@ The construction was made based on the design made available through the figma. 
 
 ## Video
 
-https://user-images.githubusercontent.com/86618257/180621348-6bf54f39-4e8a-4a3c-942d-0997df2cbfae.mp4
+https://user-images.githubusercontent.com/86618257/180626844-59f46a43-1b7c-49b4-90be-52902069b60f.mp4
 
 ## Stack
 
